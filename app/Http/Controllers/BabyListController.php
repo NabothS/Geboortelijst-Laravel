@@ -134,8 +134,7 @@ class BabyListController extends Controller
 
         if($r->password == $password){
             $listArticles = ListArticle::where('listId', $list->id)->get();
-            $cartItems = Cart::session(1)->getContent();
-            return view('justShowList', compact('listArticles', 'list', 'cartItems'));
+            return view('justShowList', compact('listArticles', 'list'));
         }
         else return redirect()->back();
     }
@@ -163,4 +162,13 @@ class BabyListController extends Controller
 
 
     } */
+
+    public function store(Request $r){
+        $itemId = $r->itemId;
+        $article =  ListArticle::where('id', $itemId)->firstOrFail();
+        $article->isBought = 1;
+        $article->save();
+
+        return redirect()->back();
+    }
 }

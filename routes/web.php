@@ -47,8 +47,8 @@ Route::post('checkPass' , [BabyListController::class, 'checkPass'])->name('check
 
 Route::post('deleteList/{id}', [BabyListController::class, 'deleteList']);
 
-/* Route::post('/store', [BabyListController::class, 'store'])->name('store');
- */
+Route::post('/store', [BabyListController::class, 'store'])->name('store');
+
 Route::get('/categories', [CategoryController::class, "show"])->middleware(['auth'])->name('categories');
 
 Route::get('/articles', [ArticleController::class, "show"])->middleware(['auth'])->name('articles');

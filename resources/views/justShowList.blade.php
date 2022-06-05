@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>List</title>
 </head>
 <body class="bodyValidation">
@@ -27,7 +28,13 @@
             <form method="post" action="store">
                 @csrf
                 <input type="hidden" name="itemId" value="{{$item->id}}">
-                <button class="buttonBuy">{{__('Koop')}}</button>
+                @if ($item->isBought === 1)
+                    <button disabled class="buttonBuy opacity-50">{{__('Koop')}}</button>
+
+                @else
+                    <button class="buttonBuy">{{__('Koop')}}</button>
+
+                @endif
             </form>
 
         </div>
