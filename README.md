@@ -1,3 +1,8 @@
+## LINK TO DEPLOYED VERSION
+
+[www.e-baby.be]
+
+
 ## About this website
 
 This is a website that allows parents to set up a birth list with all the articles that the admin scraped from 3 other webshops :
