@@ -1,0 +1,245 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.tableCats{
+    margin:20px;
+    width: 65%;
+    margin: auto;
+    box-shadow: 0px 0px 16px 7px rgba(255, 255, 255, 0.653);
+}
+
+.tableCels:nth-child(even){
+    background-color: white;
+
+}
+
+.tableCels:nth-child(odd){
+    background-color: rgb(247, 247, 247);
+}
+
+.tableCels td {
+    padding:10px;
+    padding-left: 5vw;
+}
+
+.tableTitle{
+    color: #51B1DB;
+    font-size: 3rem;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+    box-shadow: 0px 0px 16px 7px rgba(255, 255, 255, 0.653);
+
+}
+
+.maindiv{
+    background-image: url('/images/background2.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.btnCats{
+    background: none;
+    background-color: #51B1DB;
+    padding:10px;
+    border-radius:10px;
+    color:white;
+}
+
+.aticleCard{
+    border:1px solid #51B1DB;
+    border-radius: 15px;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgCont{
+    margin-bottom:10px;
+}
+
+.artikelenGrid{
+    padding:20px;
+    border-radius: 20px;
+}
+
+.fixedBox{
+    position: fixed;
+    color: #fff;
+    background-color: #001220;
+    box-shadow: 0px 0px 16px 7px rgba(255, 255, 255, 0.653);
+    width: 13vw;
+    top:33vh;
+    padding-bottom: 20px;
+    border-radius: 0 15px 15px 0;
+}
+.fixedBox h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding:20px;
+}
+
+.mimiLink{
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+    border: 1px solid #51B1DB;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.mimiLink:hover{
+    background-color: #51b2db73;
+    color:#51B1DB;
+}
+
+.shopLink{
+    margin-bottom: 30px;
+}
+
+.filterSelect{
+    width: 70%;
+    padding:10px;
+    margin-left: 20px;
+    color:#001220;
+    border: 1px solid #51B1DB;
+    font-size: 1rem;
+    margin-top:30px;
+}
+
+.btnFilter{
+    background-color: #51B1DB;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding:10px;
+    font-size: 1.2rem;
+    width: 70%;
+    border-radius: 0 0 15px 15px;
+}
+
+.btnMakelist{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 30%;
+    font-weight: bold;
+}
+.btnMakeListForm{
+    text-align: center;
+}
+
+.listsContainer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+}
+.makeListForm{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 16px 7px rgba(255, 255, 255, 0.653);
+    font-size: 1.2rem;
+
+}
+
+.makeListForm button{
+    margin: auto;
+    margin-top: 30px;
+}
+.makeListForm label{
+    font-size: 1.2rem;
+
+}
+.makeListForm input{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: #001220;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.listCard{
+    border-radius: 10px;
+    padding:20px;
+}
+
+.trashcanA{
+    text-align: right;
+    color: rgb(136, 33, 33);
+    width: 10%;
+}
+.lstURL{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.bodyValidation{
+    min-height: 100vh;
+    background-image: url('/images/background2.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.btnValidate{
+    background-color: #51B1DB;
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+}
+.divValidation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.passwordValidation{
+    background-color:#001220;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+}
+.buttonBuy
+{
+    background-color:#51B1DB;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding:10px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.tableCels th{
+    padding:10px;
+    padding-left: 5vw;
+}
