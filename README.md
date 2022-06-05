@@ -44,3 +44,10 @@ if you want to run this locally, change the .env.example to .env and fill in the
 ## Ending notes
 
 In the end it is completely my fault for procrastinating so much for something which i can do if i put the time in it, my apologies and i will try to improve on this, as i will try to improve my way of coding :)
+
+
+## Credits
+
+I have to mention that Niels Minne helped me a ton with the deployment because it was all a bit messed up 
+on my side of things, so he helpen me through the process of deployment.
+Huge thanks to Niels Minne!
