@@ -5,9 +5,12 @@ This is a website that allows parents to set up a birth list with all the articl
 - Kabine
 - Baby Corner
 
+## Use 
+
 If you want to try the admin side : [admin@gmail.com]   Password : [admin123]
------
 If you want to try the parent side : [parent@gmail.com] Password : [parent123]
+
+If you want to register you'll be automatically registered as a parent, so you don't have to use the parent email.
 
 When a list is made by a parent, the url is made from the current URL, so if you're on localhost and you make a list, you can't reach it if you look on the deployed version, only a deployed version made list can be viewed on a deployment version of the website
 
